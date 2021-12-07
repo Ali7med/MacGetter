@@ -1,0 +1,16 @@
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.csproj.AssemblyReference.cache
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.csproj.SuggestedBindingRedirects.cache
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MainWindow.g.cs
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\App.g.cs
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2_MarkupCompile.cache
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2_MarkupCompile.lref
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\bin\Debug\MacGetter2.exe.config
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\bin\Debug\MacGetter2.exe
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\bin\Debug\MacGetter2.pdb
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MainWindow.baml
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.g.resources
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.Properties.Resources.resources
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.csproj.GenerateResource.cache
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.csproj.CoreCompileInputs.cache
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.exe
+F:\Apps\C#\WPF\MacGetter2\MacGetter2\obj\Debug\MacGetter2.pdb

@@ -1,0 +1,45 @@
+﻿<Window x:Class="MacGetter2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MacGetter2"
+        mc:Ignorable="d"
+       Title="MainWindow" Height="500" Width="800">
+    <Grid RenderTransformOrigin="0.45,0.504">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="217*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Name="BtnGetMac" Click="BtnGetMac_Click" Margin="120,0,0,0" d:LayoutOverrides="Width" Background="#FFFFA5A5" Width="125" Grid.Row="1" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top">Get Mac</Button>
+        <Button Name="BtnSave" Click="BtnSave_Click" Margin="250,0,0,0" Background="#FFA5E8FF" Width="100" Grid.Row="1" HorizontalAlignment="Left" d:LayoutOverrides="Width" Height="30" VerticalAlignment="Top">Save</Button>
+        <TextBox x:Name="txtMac" Height="25" Margin="120,0,0,23" VerticalAlignment="Bottom" Width="230" d:LayoutOverrides="Width" HorizontalAlignment="Left" />
+        <TextBox x:Name="txtIp" Height="25" Margin="120,0,0,63" VerticalAlignment="Bottom" Width="230" d:LayoutOverrides="Width" HorizontalAlignment="Left" />
+        <Label x:Name="labelMac" Content="Mac Address" Margin="30,0,0,20" RenderTransformOrigin="0.471,0.002" Height="30" VerticalAlignment="Bottom" Width="90" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
+        <Label x:Name="labelIp" Content="IP Address" Margin="30,0,0,60" RenderTransformOrigin="0.471,0.002" Height="30" VerticalAlignment="Bottom" Width="90" HorizontalAlignment="Left" d:LayoutOverrides="Width"/>
+
+        <ListView Height = "414" Margin = "10,0,10,10" 
+         VerticalAlignment = "Bottom"  Name = "MenList" Grid.Column="1" d:LayoutOverrides="Width">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header = "ID" DisplayMemberBinding = "{Binding ID}" 
+                  Width = "20"/>
+
+                    <GridViewColumn Header = "IP" DisplayMemberBinding = "{Binding IP}" 
+                  Width = "150"/>
+
+                    <GridViewColumn Header = "Mac" DisplayMemberBinding = "{Binding Mac}" 
+                  Width = "150"/>
+
+                </GridView>
+            </ListView.View>
+
+        </ListView>
+        <Button x:Name="BtnGetMacNetwork" Click="BtnGetMacNetwork_Click" Margin="10,0,0,0" Background="#FFFFA5A5" Width="125" Grid.Row="1" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Content="Get Mac" d:LayoutOverrides="HorizontalAlignment, Width" Grid.Column="1"/>
+    </Grid>
+</Window>
